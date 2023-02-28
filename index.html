@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- style -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Guess the number</title>
+</head>
+
+<body>
+
+  <div class="gn-wrapper">
+    <div class="gn-container">
+
+      <h1 class="gn-title">Game: Guess the number!</h1>
+
+      <p class="gn-text">
+        The computer guessed a number from 1 to 100. Your task is to guess it.
+      </p>
+
+      <div class="gn-field">
+        <label for="" class="gn-field__label">Your number: </label>
+        <input type="text" class="gn-field__input" />
+        <button class="gn-field__btn">Check</button>
+      </div>
+
+      <div class="gn-result">
+
+        <div class="gn-result__check">
+          <span class="gn-result__result">Result:</span>
+          <span class="gn-result__result-out"></span>
+        </div>
+
+        <div class="gn-result__help">
+          <span class="gn-result__attempt">Attempts:</span>
+          <span class="gn-result__attempt-out"></span>
+        </div>
+
+        <div class="gn-result__count">
+          <span class="gn-result__count">Number of attempts:</span>
+          <span class="gn-result__count-out"></span>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
